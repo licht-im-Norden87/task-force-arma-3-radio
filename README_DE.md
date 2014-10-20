@@ -1,65 +1,65 @@
 Task Force Arma 3 radio
 =======================
-# Please support TFAR on [MakeArmaNotWar](http://makearmanotwar.com/entry/pMP8c7vSS4#.VA1em_nV9UD)!
+# Bitte unterstützt TFAR auf ["MakeArmaNotWar"](http://makearmanotwar.com/entry/pMP8c7vSS4#.VA1em_nV9UD)!
 
-Arma 3 Team Speak Radio Plugin ([documentation](https://github.com/michail-nikolaev/task-force-arma-3-radio/wiki))
-_v0.9.5 (10-16-2014)_
+Arma 3 Team Speak Radio Erweiterung ([Dokumentation](https://github.com/michail-nikolaev/task-force-arma-3-radio/wiki))
+_v0.9.5 (16-10-2014)_
 
-#####Compatible with 0.9.3 and 0.9.4, not compatible with 0.9.2
+#####Kompatibel mit den Versionen 0.9.3 sowie 0.9.4, jedoch NICHT mit 0.9.2
 
 ###Installation
 
-* Download and unzip [0.9.5 radio archive](https://www.dropbox.com/s/7xs9t71716uf5cf/0.9.5.zip?dl=1).
-* Copy `TeamSpeak 3 Client` folder content to the TeamSpeak root folder.
-* Copy `Arma 3` folder content to the `...\SteamApps\common\Arma 3 folder`.
+* Die Datei herunterladen und entpacken [0.9.5 radio archive](https://www.dropbox.com/s/7xs9t71716uf5cf/0.9.5.zip?dl=1).
+* Kopiere den Inhalt des `TeamSpeak 3 Client` Ordners ins das TeamSpeak Hauptverzeichnis.
+* Kopiere den Inhalt des  `Arma 3` Ordners in das Verzeichnis `...\SteamApps\common\Arma 3 Ordner`.
 
-> TFAR uses the CBA (Community Base Addons) latest version. Therefore, if you’ve already installed this mod, Windows will prompt you to replace the folder.
+> TFAR verwendet die aktuelle Version der MOD "CBA" (Community Base Addons). Falls Du bereits CBA installiert haben solltest wird Windows die Frage stellen, ob der Ordner ersetzt werden soll.
 
 
-###Configuration
+###Einrichtung
 
-* Make sure `Caps Lock` key is not used for talking in TeamSpeak
-* Turn off voice over network (VON) in ARMA 3 or change key to different than `Caps Lock` (to avoid voice doubling).
-* Open the plugin list in Team Speak: `Settings > Plugins`.
-  1. Enable `Task Force Arma 3 Radio`.
-  2. Recommended to disable `ACRE` and `radio ts ARMA3.ru` version if they are installed, to avoid conflicts.
-  3. Just in case – there is a `Reload All` button at the bottom left to restart all the plugins.
+* Stelle sicher, dass die  `Feststelltaste` nicht bereits im Teamspeak eine Verwendung hat
+* Deaktiviere das "voice over network" (VON) innherhalb von Arma oder stelle sicher, dass nicht die `Feststelltaste` hierfür fungiert (Um Stimmdopplungen zu vermeiden).
+* Öffne die Pluginliste von Teamspeak: `Einstellungen > Plugins`.
+  1. Aktiviere `Task Force Arma 3 Radio`.
+  2. Es ist ratsam - um Konflikte zu vermeiden - `ACRE` sowie `radio ts ARMA3.ru` zu deaktivieren (Falls diese installiert       sein sollten)
+  3. Nur für den Fall – Verwende den Knopf `Alles Aktualisieren` links unten.
 * Make sure the volume of alerts is not turned off in Team Speak: `Options > Payback > Sound Pack Volume` - set a positive value.
 * Start the game with `@CBA_A3` & `@task_force_radio` add-ons (Community Base Addons: A3 Beta & Task Force Arrowhead Radio). It can be done by adding the mod names to the game shortcut after the EXE file `…\arma3.exe -mod=@CBA_A3;@task_force_radio`, however, it is recommended to enable the necessary mods in the game settings (`Settings -> Expansions`).
 * Join the same channel with other players using the radio, or you will be navigated to the `TaskForceRadio` channel, if there is one at the start of a mission.
 
 > You will get the same nick both in the game profile and TeamSpeak - plugin will change your nickname in TS during the game.
 
-> Make sure your game nickname contains at least 3 characters.
+> Stelle sicher, dass dein Arma-Spielname mindestens 3 Buchstaben lang ist.
 
-> It is not recommended to use the plugin with simultaneous connection to multiple servers in TeamSpeak.
+> Es ist nicht ratsam das Plugin zu verwenden, während man sich auf unterschiedlichen Teamspeakservern aufhält.
 
-> It is recommended to disable the TeamSpeak built-in alert sounds: `Options> Notifications> Sound Pack: "Sounds Deactivated"`. To use this option, restart TeamSpeak.
+> Es ist empohlen die Teamspeak eigenen Geräusche zu deaktivieren: `Einstellungen> Meldungen> Sound Pack: "Sounds Deactivated"`. Um die Einstellung anzuwenden muss Teamspeak neu gestartet werden.
 
 
-###Usage
+###Tastenbelegung
 
-| Keys | Action |
+| Taste | Funktion |
 | --- | --- |
-| Push-to-talk button in TeamSpeak | Direct Speech. |
-| `Caps Lock` | To talk on a radio. |
-| `CTRL`&nbsp;+&nbsp;`Caps Lock` | To talk on a long range radio. |
-| `CTRL`&nbsp;+&nbsp;`P` | To open the personal radio interface (the radio must be in the inventory slot). In that case if you have a number of radios - you can select the one needed. It is also possible to set the radio as active (the one that will be used for transmission). Also it is possible to load radio settings from another radio with same encryption code. |
-| `CTRL`&nbsp;+&nbsp;+&nbsp;`[/]` | Cycle through available shortwave radios. | 
-| `CTRL`&nbsp;+&nbsp;`Up/Left/Right Arrow` | Rapid switching of shortwave stereo mode. |
+| Push-to-talk Knopf im Teamspeak | Direktes Sprechen. |
+| `Feststelltaste` | Verwendung des Funkgerätes. |
+| `STRG`&nbsp;+&nbsp;`Feststelltaste` | Verwendung des Langstreckenfunkgerätes. |
+| `STRG`&nbsp;+&nbsp;`P` | Öffnet die Funkgerätoberfläche (Das Funkgerät musss sich im Inventar befinden.). Falls mehrere Funkgeräte mit sich geführt werden kann das Benötigte ausgewählt werden. Ebenso besteht die Möglichkeit ein Funkgerät als aktuell verwendetes zu makieren. (Dasjenige welches zum Funken verwendet werden wird.) Ebenso können Einstellungen eines anderen Funkgerätes mit der gleichen Verschlüsselung auf das verwendete übertragen werden. . |
+| `STRG`&nbsp;+&nbsp;+&nbsp;`[/]` | Wechsel zwischen verfügbaren Kurzstreckenfunkgeräten. | 
+| `STRG`&nbsp;+&nbsp;`Pfeiltasten: HOCH/LINKS/RECHTS ` | Rapid switching of shortwave stereo mode. |
 | `NUM[1-8]` | Rapid switching of shortwave radio channels. | 
 | `ALT`&nbsp;+&nbsp;`P` | To open a long range radio interface (a long range radio must be put on your back, or you should be in a vehicle in a position of a driver, shooter, or pilot assistant). If a number of radios are available – you’ll be offered to choose one. Besides, one of them can be set as active. Also it is possible to load radio settings from another radio with same encryption code. |
-| `CTRL`&nbsp;+&nbsp;`ALT`&nbsp;+&nbsp;`[/]` | Cycle through available long range radios. | 
+| `STRG`&nbsp;+&nbsp;`ALT`&nbsp;+&nbsp;`[/]` | Cycle through available long range radios. | 
 | `ALT`&nbsp;+&nbsp;`Up/Left/Right Arrow` | Rapid switching of long range stereo mode. |
-| `CTRL`&nbsp;+&nbsp;`NUM[1-9]` | Rapid switching of long range radio channels. |
-| `CTRL`&nbsp;+&nbsp;`TAB` | To change the direct speech volume. You can talk: Whispering, Normal or Yelling. Does not affect the signal volume in the radio transmission. |
+| `STRG`&nbsp;+&nbsp;`NUM[1-9]` | Rapid switching of long range radio channels. |
+| `STRG`&nbsp;+&nbsp;`TAB` | To change the direct speech volume. You can talk: Whispering, Normal or Yelling. Does not affect the signal volume in the radio transmission. |
 | `SHIFT`&nbsp;+&nbsp;`P` | To open an underwater transceiver interface (you should be wearing a rebreather). | 
-| `CTRL`&nbsp;+&nbsp;`~` | To talk on underwater transceiver. |
-| `CTRL`&nbsp;+&nbsp;`]`| Select next personal radio. |
-| `CTRL`&nbsp;+&nbsp;`[`| Select previous personal radio. |
-| `CTRL`&nbsp;+&nbsp;`ALT`&nbsp;+&nbsp;`]`| Select next long range radio. |
-| `CTRL`&nbsp;+&nbsp;`ALT`&nbsp;+&nbsp;`[`| Select previous long range radio. |
-| `CTRL`&nbsp;+&nbsp;`[←,↑,→]`| Change personal radio stereo mode. |
+| `STRG`&nbsp;+&nbsp;`~` | To talk on underwater transceiver. |
+| `STRG`&nbsp;+&nbsp;`]`| Select next personal radio. |
+| `STRG`&nbsp;+&nbsp;`[`| Select previous personal radio. |
+| `STRG`&nbsp;+&nbsp;`ALT`&nbsp;+&nbsp;`]`| Select next long range radio. |
+| `STRG`&nbsp;+&nbsp;`ALT`&nbsp;+&nbsp;`[`| Select previous long range radio. |
+| `STRG`&nbsp;+&nbsp;`[←,↑,→]`| Change personal radio stereo mode. |
 | `ALT`&nbsp;+&nbsp;`[←,↑,→]`| Change long range radio stereo mode. |
 | `T` | Transmit on additional channel of personal radio. |
 | `Y` | Transmit on additional channel of long range radio. |
